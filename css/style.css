@@ -213,13 +213,14 @@ body {
 /* reviews */
 
 .reviews {
-    margin-top: 170px;
+    margin: 170px 0;
 }
 
 .reviews-heading {
     font-weight: bold;
     font-size: 40px;
-    line-height: 130%;width: 548px;
+    line-height: 130%;
+    width: 548px;
     padding: 0 0 40px 0;
 }
 
@@ -232,7 +233,131 @@ body {
     opacity: 70%;
     width: 460px;
 }
-.reviews-content{
+
+.reviews-content {
     flex-direction: column;
     justify-content: center;
+}
+
+/* foo  */
+
+.footer {
+    background: #09111E;
+    border-radius: 10px;
+}
+
+.footer-left {
+    margin: 77px 32px 116px 36px;
+    width: 260px;
+}
+
+.footer-logo {
+    padding-bottom: 10px;
+}
+
+.footer-left-text {
+    width: 261px;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    padding-bottom: 35px;
+}
+
+.footer-left-list-item-img {
+    padding-right: 9px;
+}
+
+.footer-left-list-link {
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.footer-left-list {
+    flex-direction: column;
+    grid-gap: 20px;
+}
+
+.footer-left-list-item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.footer-main-item-heading {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding-top: 100px;
+}
+
+.footer-main-list {
+    margin-top: 32px;
+    display: grid;
+    grid-gap: 20px;
+}
+
+.footer-main-list-item {
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    flex-direction: column;
+    grid-gap: 20px;
+    width: 164px;
+}
+
+.footer-right {
+    flex-direction: column;
+    width: 265px;
+}
+
+.footer-right-link {
+    flex-direction: column;
+}
+
+.footer-right-item-heading {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding-top: 100px;
+}
+
+.footer-right-text {
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    padding-top: 32px;
+}
+
+.footer-right-link-heading {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    padding-top: 29px;
+}
+.footer-right-list{
+    padding-top: 21px;
+    grid-gap: 25px;
+    margin-bottom: 45px;
+}
+
+.drop-list {
+    background-color: #09111E;
+    border: none;
+    color: #fff;
+    font-family: 'Open Sans';
 }
