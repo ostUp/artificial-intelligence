@@ -111,9 +111,9 @@ body {
     margin: 0 0 0 20px;
 }
 
-.watch-video-btn::before {
+/* .watch-video-btn::before {
     content: url(../img/play.png);
-}
+} */
 
 /* partner */
 
